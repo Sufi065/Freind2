@@ -10,9 +10,8 @@ class complex{
         real=x;
         imag=y;
     }
-    
     // friend complex operator *(int,complex);
-    
+  
    complex operator +(int x){
     complex t;
     t.real=real+x;
@@ -37,6 +36,5 @@ int main(){
     // c3.print();
     c4=6*c1;
     c4.print();
-    
     return 0;
 }
